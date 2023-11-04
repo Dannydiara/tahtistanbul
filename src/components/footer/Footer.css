@@ -1,0 +1,100 @@
+.foot {
+  padding-top: 2rem;
+  position: relative;
+  display: block;
+  justify-content: baseline;
+  min-width: 300px;
+}
+.foot .spacer {
+  aspect-ratio: 960/80;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.foot .layer1 {
+  background-image: url("/assets/layer1.svg");
+}
+.foot .footer {
+  background-color: #34343D;
+  color: #a3acbd;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 10% 3rem;
+}
+@media (max-width: 768px) {
+  .foot .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.foot .footer .left {
+  border-right: 2px solid #a3acbd;
+  padding-right: 2rem;
+  display: flex;
+}
+@media (max-width: 768px) {
+  .foot .footer .left {
+    border-right: none;
+    padding: 0 0 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.foot .footer .middle {
+  text-align: center;
+  justify-content: space-evenly;
+}
+.foot .footer .middle .link-items {
+  list-style: none;
+  padding: 0 1rem;
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+.foot .footer .middle .link-items .link-item {
+  padding: 5px;
+}
+.foot .footer .middle .link-items .link-item .link {
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+.foot .footer .middle .link-items .link-item .link:hover, .foot .footer .middle .link-items .link-item .link:focus {
+  opacity: 0.7;
+  color: #aaa;
+}
+.foot .footer .middle p {
+  margin: 8px 1px;
+  flex-wrap: wrap;
+}
+.foot .footer .right {
+  display: flex;
+  align-items: center;
+}
+.foot .footer .right .icon-link {
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  margin: 1px 8px;
+  border: 1px solid #a3acbd;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.foot .footer .right .icon-link .icon-link-icon {
+  transition: all 0.3s ease;
+}
+.foot .footer .right .icon-link .icon-link-icon:hover, .foot .footer .right .icon-link .icon-link-icon:active, .foot .footer .right .icon-link .icon-link-icon:focus {
+  transform: scale(1.2);
+}
+@media (max-width: 768px) {
+  .foot .footer .right {
+    padding-top: 5px;
+    margin-top: 5px;
+  }
+}/*# sourceMappingURL=Footer.css.map */

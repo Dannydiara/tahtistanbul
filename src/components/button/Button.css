@@ -1,0 +1,21 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e41829;
+  color: #FFF0F5;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+}
+.button:hover {
+  background-color: #f05763;
+  transition: all 0.3s ease;
+}
+.button .button-icon {
+  margin-right: 10px;
+  font-size: 2rem;
+}/*# sourceMappingURL=Button.css.map */

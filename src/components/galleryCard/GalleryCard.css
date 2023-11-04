@@ -1,0 +1,48 @@
+.section-card {
+  color: #1d1d1d;
+  text-align: center;
+  min-width: 200px;
+}
+.section-card .figure {
+  background: #efefef;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.section-card .figure img {
+  vertical-align: top;
+  max-width: 140%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 60% 100%;
+     object-position: 60% 100%;
+}
+.section-card .figure .caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: table;
+  padding: 0 20px;
+  transform: translate(-50%, -50%);
+}
+.section-card .figure .caption h3 {
+  color: #1d1d1d;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0;
+  opacity: 0;
+}
+.section-card .figure .caption h3 span {
+  font-weight: 700;
+  display: block;
+}
+.section-card .figure:hover img, .section-card .figure.hover img {
+  opacity: 0.3;
+  filter: grayscale(100%);
+}
+.section-card .figure:hover .caption, .section-card .figure.hover .caption {
+  opacity: 1;
+}
+.section-card .figure:hover .caption h3, .section-card .figure.hover .caption h3 {
+  opacity: 1;
+}/*# sourceMappingURL=GalleryCard.css.map */

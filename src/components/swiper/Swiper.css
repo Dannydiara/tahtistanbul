@@ -1,0 +1,123 @@
+.container {
+  position: relative;
+}
+.container .mySwiper {
+  width: 100%;
+  height: 100vh;
+}
+.container .mySwiper .swiperSlide {
+  transform: translateZ(0);
+  transition: all 0.5s ease;
+}
+.container .mySwiper .swiperSlide img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .mySwiper .swiperSlide .content {
+  position: absolute;
+  text-align: center;
+  top: 23rem;
+  left: 50%;
+  opacity: 1;
+  width: 50%;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.4);
+  animation: slide-up 1s ease 0.5s;
+  animation-fill-mode: forwards;
+}
+.container .mySwiper .swiperSlide .content * {
+  color: #f1ecec;
+  margin-bottom: 1rem;
+}
+.container .mySwiper .swiperSlide .content h2 {
+  font-size: 4.5rem;
+}
+@media (max-width: 768px) {
+  .container .mySwiper .swiperSlide .content h2 {
+    font-size: 3rem;
+  }
+}
+.container .mySwiper .swiperSlide .content hr {
+  height: 2px;
+  background: #f1ecec;
+  width: 50%;
+}
+@media (max-width: 1096px) {
+  .container .mySwiper .swiperSlide .content {
+    top: 15rem;
+    width: 60%;
+    padding: 2rem;
+  }
+  .container .mySwiper .swiperSlide .content h2 {
+    font-size: 3rem;
+  }
+  .container .mySwiper .swiperSlide .content p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .container .mySwiper .swiperSlide .content {
+    top: 15rem;
+    width: 80%;
+    padding: 1rem;
+  }
+  .container .mySwiper .swiperSlide .content h2 {
+    font-size: 2rem;
+  }
+  .container .mySwiper .swiperSlide .content p {
+    font-size: 0.8rem;
+  }
+}
+@media (max-height: 700px) {
+  .container .mySwiper .swiperSlide .content {
+    top: 25%;
+    padding: 0.5rem 0;
+  }
+}
+.container .mySwiper .swiperSlide .socialIcons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 90px;
+  padding: 0 10px;
+}
+.container .mySwiper .swiperSlide .socialIcons .icon-link {
+  color: #f1ecec;
+  padding: 0.5rem 0.6rem;
+  margin: 10px 0;
+  border: 1px solid #f1ecec;
+  border-radius: 100%;
+}
+@media (max-width: 1220px) {
+  .container .mySwiper .swiperSlide .socialIcons {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .container .mySwiper .swiperSlide .socialIcons {
+    visibility: hidden;
+  }
+}
+.container .mySwiper .swiper-button-next,
+.container .mySwiper .swiper-button-prev {
+  color: #fff !important;
+}
+@media (max-width: 1096px) {
+  .container .mySwiper {
+    height: 80vh;
+  }
+}
+@media (max-width: 768px) {
+  .container .mySwiper {
+    height: 60vh;
+    margin-bottom: 1rem;
+  }
+}/*# sourceMappingURL=Swiper.css.map */

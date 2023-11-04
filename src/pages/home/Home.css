@@ -1,0 +1,196 @@
+.home {
+  min-width: 250px;
+  max-width: 100%;
+}
+.home .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 2.188rem 1rem 3.438rem 1rem;
+  background-color: #efefef;
+}
+.home .info .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+.home .info .buttons .button {
+  margin: 5px 3px;
+  text-align: center;
+}
+.home .info h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #636570;
+  line-height: 1.6rem;
+}
+@media (max-width: 768px) {
+  .home .info {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem auto;
+  }
+  .home .info .buttons {
+    flex-wrap: wrap;
+  }
+  .home .info .buttons .button {
+    margin: 10px auto;
+  }
+}
+.home .map {
+  position: relative;
+  max-width: 100%;
+  background-image: url("/assets/map.jpg");
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-size: cover;
+}
+@media (max-width: 768px) {
+  .home .map {
+    max-height: 13rem !important;
+  }
+}
+@media (max-width: 1279px) {
+  .home .map {
+    max-height: 15rem;
+  }
+}
+.home .map .button {
+  background-color: #00BFDD;
+  color: white;
+  font-size: 16px;
+  box-shadow: 0px 7px 15px rgba(0, 191, 221, 0.25);
+}
+.home .cardList {
+  position: relative;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background: #fff;
+  text-align: center;
+  padding: 4rem 2rem 2rem;
+}
+.home .cardList .cardTitle {
+  font-family: "Roboto", sans-serif;
+  padding: 1.5rem 1rem;
+  margin: 1rem;
+  line-height: 1.5rem;
+}
+.home .cardList .cardTitle h1 {
+  color: #464444;
+  font-weight: 600;
+  letter-spacing: -1px;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+@media (max-width: 768px) {
+  .home .cardList .cardTitle h1 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .home .cardList .cardTitle {
+    padding: 0.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .home .cardList {
+    padding: 2rem 1rem;
+  }
+}
+.home .discover {
+  background: #efefef;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 10%;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.home .discover .discover-titles .discover-title {
+  padding: 0 10%;
+}
+.home .discover .discover-titles .discover-title .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+.home .discover .discover-titles .discover-title .buttons .button {
+  margin: 5px 3px;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .home .discover .discover-titles .discover-title .buttons {
+    flex-wrap: wrap;
+  }
+  .home .discover .discover-titles .discover-title .buttons .button {
+    margin: 3px 4px;
+  }
+}
+@media (max-width: 768px) {
+  .home .discover .discover-titles {
+    padding: 5px 0;
+    margin: 0;
+  }
+}
+.home .review {
+  width: 100%;
+  padding: 0 2rem;
+  height: auto;
+  border-radius: 20px;
+  background-color: #fcfcfc;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.home .review h1 {
+  font-size: 2rem;
+  color: #464444;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  max-width: 100%;
+  word-break: break-word;
+  margin: 2rem 0;
+}
+.home .pricing {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  max-height: none;
+  overflow: visible;
+  padding: 0 10px;
+}
+.home .pricing h2, .home .pricing p {
+  color: #636570;
+}
+.home .pricing .pricing-title {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 15% 2rem;
+  color: #232328;
+}
+.home .pricing .pricing-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+@media (max-width: 768px) {
+  .home .pricing .pricing-card {
+    flex-direction: column;
+    align-items: center;
+  }
+}/*# sourceMappingURL=Home.css.map */
