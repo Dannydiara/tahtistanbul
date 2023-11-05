@@ -5,7 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import Footer from "./components/footer/Footer";
 import Home from "./pages/home/Home";
 import Pricing from "./pages/pricing/Pricing";
-import Concepts from "./pages/Concepts/Concepts";
+import Concepts from "./pages/concepts/Concepts";
 import AboutUs from "./pages/about-us/AboutUs";
 import Contact from "./pages/contact/Contact";
 
