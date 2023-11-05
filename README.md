@@ -1,8 +1,20 @@
-# React + Vite
+# Taht Istanbul
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Taht Istanbul is a website that allows you to discover and book beautiful locations for photoshoots in Istanbul.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To run this project, you will need the following technologies installed:
+
+- [Vite](https://vitejs.dev/)
+- [React](https://reactjs.org/)
+- [Swiper.js](https://swiperjs.com/)
+- [SCSS](https://sass-lang.com/)
+- [React Router Dom](https://reactrouter.com/)
+- [Styled Components](https://styled-components.com/)
+
+Please visit the official websites of these technologies for installation guides.
+
+## Usage
+
+This project is primarily the homepage, so feel free to add your own content and features to make it your own!
